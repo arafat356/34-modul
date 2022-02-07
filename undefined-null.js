@@ -16,4 +16,8 @@ function duble (a,b){
 const fifth = {name: 'kamal',age:15,location:'khiram'}
 console.log(fifth.name)
 const sixth = [33,44,55,66,77,88,99,11,22,33,44,];
-console.log(sixth[5])
+// console.log(sixth[5]);
+delete sixth[5]
+console.log(sixth)
+
+const seventh = undefined;
